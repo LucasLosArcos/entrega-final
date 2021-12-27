@@ -1,0 +1,80 @@
+.FooterBs p{
+	font-size: $text-s;
+}
+
+.footerTitle{
+	color: $text-white;
+	text-transform: uppercase;
+	font-size: $text-s;
+}
+
+.NavFooterBS li{
+	list-style-type: none;
+}
+
+.NavFooterBS a{
+	color: $bg-white;
+	font-size: $text-s;
+	text-decoration: none;
+}
+
+.NavFooterBS a:hover{
+	transition: 0.3s;
+	color: $text-lightgray;
+}
+
+.footerContact a{
+	text-decoration: none;
+	color: $text-white;
+	font-size: $text-s;
+}
+
+.footerContact a:hover{
+	transition: .3s;
+	color: $text-lightgray;
+}
+
+
+.rrss{
+	font-size: $text-m;
+}
+
+
+#FBbtn:hover{
+	color: rgb(59,89,180);
+    transition: .2s;
+}
+
+
+#TWbtn:hover{
+	color: rgb(85, 172, 245);
+    transition: .2s;
+}
+
+
+
+#IGbtn:hover{
+	background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+    transition: .32;
+}
+
+
+#PIbtn:hover{
+	color: rgb(240, 28, 24);
+    transition: .2s;
+}
+
+#LIbtn:hover{
+	color: rgb(77, 118, 232);
+    transition: .2s;
+}
+
+#WPPbtn:hover{
+	transition: .2s;
+	color:#00E676;
+}
+
+#Gbtn:hover{
+	transition: .2s;
+	color: rgb(218, 2, 2);
+}

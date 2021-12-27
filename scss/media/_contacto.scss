@@ -1,0 +1,104 @@
+//  Mobile
+@media(min-width:320px){
+    .contact{
+        margin: 0;
+        padding: 5px;
+        width:100vw;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5%;
+    }
+
+    .contactMap{
+        width: 80vw ;
+        height: 25vh;
+    }
+
+    .contact__title{
+        border-bottom: 1px solid $bg-lightgray;
+    }
+    .form__input{
+        padding:10px;
+        width: 80%;
+    }
+
+    .form__textarea{
+        width: 80vw;
+    }
+
+    .form__input--btn{
+        width: 60%;
+        margin: auto;
+    }
+}
+
+// Tablet
+@media(min-width:720px){
+    .form__label{
+        font-size: 1.5rem;
+    }
+    .form{
+        margin-left: 8%;
+    }
+    .contact div h1{
+        margin-left: 3%;
+    }
+    
+    .contact div p{
+        margin-left: 3%;
+    }
+    .form__input{
+        padding: 15px;
+    }
+}  
+// Laptop L
+
+@media(min-width:1245px){
+    .contact{
+        width: 75%;
+        margin: auto;
+        margin-top: 2em;
+        margin-bottom: 2em;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .contact__title{
+        font-size: 2.467rem;
+        margin-left: 5%;
+        width: 100%;
+        border-bottom: none;
+    }
+    
+    .contactMap{
+        width: 20vw;
+        height:30vh ;
+    }
+
+    .contact ul{
+        padding-bottom: 5%;
+    }
+
+    .form{
+        margin-right: 9%;
+        margin-left:0 ;
+    }
+
+    .form__textarea{
+        width: 15vw;
+        height: 15vh;
+        min-height: 15vh;
+        max-height: 15vh;
+    }
+
+    .form__input{
+        width: 100%;
+        padding: 5px;
+    }
+    
+    .form__input--btn{
+        font-size: 1.2rem;
+        width: 80%;
+        margin-bottom: 5%;
+    }
+}

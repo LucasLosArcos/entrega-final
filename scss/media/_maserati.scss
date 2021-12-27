@@ -1,0 +1,138 @@
+@media(min-width:280px){
+
+    @for $i from 1 through  3{
+        .hero-title-maserati#{$i}{
+        font-size: 2.5rem;
+        top: -63vh;
+        }
+    }
+
+    .maserati p{
+        font-size: 1.2rem;
+        top: -58vh;
+        left: -5vw;
+    }
+
+    .maserati a{
+        font-size: 1.2rem;
+        left: 10vw;
+        top: -7vh;
+    }
+    .maserati img{
+    	width: 100%;
+		height: 75vh;
+    }
+
+    .maserati-link_container a{
+        display: none;
+    }
+    .modelos-maserati-title{
+        font-size: 4.5rem;
+    }
+    .models_containerMaserati{
+        display: $d-grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .maserati-contact_container{
+        margin-left: 5vw;
+        display: flex;
+        flex-direction: row;
+    }
+    .maserati-contact_container a{
+        text-align: center;
+        font-size: $text-s;
+    }
+}
+
+@media(min-width:350px){
+
+    .maserati p{
+        left: -5vw;
+    }
+
+    .maserati a{
+        left: 15vw;
+    }
+}
+
+
+@media(min-width:425px){
+    .maserati a{
+        left: 18vw;
+    }
+
+}
+
+@media(min-width:510px){
+    .maserati a{
+        left: 21vw;
+    }
+}
+
+
+@media(min-width:600px){
+
+    .maserati a{
+        left: 25vw;
+    }
+}
+@media(min-width:650px){
+    .models_containerMaserati{
+        grid-template-columns: repeat(2,2fr);
+    }
+
+}
+
+@media(min-width:768px){
+    @for $i from 1 through  3{
+        .hero-title-maserati#{$i}{
+        left: -10vw;
+        top: -75vh;
+        font-size: 5rem;
+        }
+    }
+
+
+        .maserati p{
+        margin-left: -5%;
+        top: -65vh;
+        font-size: 2rem;
+        }
+
+        .maserati-link_container a{
+        display: flex;
+        font-size: 2.3rem;
+        }
+
+        .maserati a{
+            font-size: 2rem;
+            left: 60vw;
+        }
+    
+        .maserati-link_container{
+            left: 78.5vw;
+        }
+        .maserati img{
+            width: $w-medium;
+            height: 90vh;
+        }
+}
+@media(min-width:1190px){
+        .maserati img{
+            height: 90vh;
+    }
+        .models_containerMaserati{
+            grid-template-columns: repeat(3,3fr);
+    }
+        .maserati-contact_container a{
+            font-size: $text-m;
+    }
+}
+@media(min-width:1440px){
+        .maserati-link_container{
+            left: 80.5vw;
+    }
+        .models_containerMaserati{
+            grid-template-columns: repeat(4,1fr);
+    }
+}

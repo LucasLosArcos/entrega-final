@@ -1,0 +1,60 @@
+// Normal Nav
+
+.NavBs{
+    background-color: $bg-white;
+    z-index: 2;
+}
+
+.nav-link{
+    border: 2px solid $bg-white;
+    color:$text-lightgray;
+    font-size: $text-s;
+    font-weight: bold;
+}
+.nav-link:hover{
+    transition: .7s;
+    border-top: 2px solid $bg-lightgray;
+    border-bottom: 2px solid $bg-lightgray;
+    color:$text-lightgray;
+}
+
+.NavBs img{
+    margin-left: $mg-left-medium;
+    margin-right: 20vw;
+    width: 150px;
+	height: 65px;
+}
+
+
+// Ferrari Nav
+.navbsFerrari{
+    background-color: $bg-red;
+}
+
+#textFerrari{
+    color: $text-white;
+    border: 2px solid $bg-red;
+}
+
+#textFerrari:hover{
+    transition: .7s;
+    border-top: 2px solid $bg-white;
+    border-bottom: 2px solid $bg-white;
+}
+// Maserati Nav
+.navbsMaserati{
+    background-color: $bg-black;
+}
+
+#textMaserati{
+    color: $text-white;
+    border: 2px solid $bg-black;
+}
+
+#textMaserati:hover{
+    transition: .4s;
+    border-top: 2px solid $bg-white;
+    border-bottom: 2px solid $bg-white;
+}
+
+

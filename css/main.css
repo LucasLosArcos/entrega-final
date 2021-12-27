@@ -1,0 +1,1512 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Montserrat; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  display: flex;
+  flex-direction: column; }
+
+.bg-red-gradient {
+  background: #c20e0e;
+  background: linear-gradient(180deg, #c20e0e 0%, white 100%); }
+
+.text-bold {
+  font-weight: bold; }
+
+.text-small {
+  font-size: 1.5rem; }
+
+.FooterBs p {
+  font-size: 1.5rem; }
+
+.footerTitle {
+  color: #fafafa;
+  text-transform: uppercase;
+  font-size: 1.5rem; }
+
+.NavFooterBS li {
+  list-style-type: none; }
+
+.NavFooterBS a {
+  color: white;
+  font-size: 1.5rem;
+  text-decoration: none; }
+
+.NavFooterBS a:hover {
+  transition: 0.3s;
+  color: #a0a0a0; }
+
+.footerContact a {
+  text-decoration: none;
+  color: #fafafa;
+  font-size: 1.5rem; }
+
+.footerContact a:hover {
+  transition: .3s;
+  color: #a0a0a0; }
+
+.rrss {
+  font-size: 2rem; }
+
+#FBbtn:hover {
+  color: #3b59b4;
+  transition: .2s; }
+
+#TWbtn:hover {
+  color: #55acf5;
+  transition: .2s; }
+
+#IGbtn:hover {
+  background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+  transition: .32; }
+
+#PIbtn:hover {
+  color: #f01c18;
+  transition: .2s; }
+
+#LIbtn:hover {
+  color: #4d76e8;
+  transition: .2s; }
+
+#WPPbtn:hover {
+  transition: .2s;
+  color: #00E676; }
+
+#Gbtn:hover {
+  transition: .2s;
+  color: #da0202; }
+
+.header_container img {
+  height: 90vh; }
+
+.hero-title1 {
+  position: absolute;
+  left: -10vw;
+  top: -8vh;
+  font-size: 5rem;
+  font-weight: 600;
+  z-index: 10; }
+
+.hero-title2 {
+  position: absolute;
+  left: -10vw;
+  top: -8vh;
+  font-size: 5rem;
+  font-weight: 600;
+  z-index: 10; }
+
+.hero-title3 {
+  position: absolute;
+  left: -10vw;
+  top: -8vh;
+  font-size: 5rem;
+  font-weight: 600;
+  z-index: 10; }
+
+.header_container p {
+  position: absolute;
+  margin-left: 5%;
+  top: -5vh;
+  font-size: 2rem;
+  font-weight: 600;
+  z-index: 10; }
+
+.header_container a {
+  position: absolute;
+  left: 55vw;
+  top: -8vh;
+  font-size: 2rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: #fafafa;
+  border: solid white;
+  padding: 10px; }
+
+.header_container a:hover {
+  color: #a0a0a0;
+  background-color: white;
+  transition: .4s; }
+
+.carousel-inner .carousel-item {
+  transition: .6s; }
+
+.marcas {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  z-index: 2;
+  background-color: #ebebeb;
+  padding: 2%; }
+
+.marcas__title {
+  color: #a0a0a0; }
+
+.marcas__text {
+  width: 100%;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #a0a0a0;
+  margin-top: 2%;
+  margin-right: 70vw; }
+
+.cards {
+  margin-left: 5%;
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: repeat(2, 40%);
+  grid-gap: 12em; }
+
+.cards h3 {
+  text-transform: uppercase;
+  text-align: center;
+  width: 100%;
+  background-color: #ebebeb;
+  color: #0a0a0a;
+  font-weight: 600;
+  font-size: 2rem; }
+
+.cards p {
+  color: #0a0a0a;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 10px;
+  padding: 5px; }
+
+.card .indexbtn {
+  width: 50%;
+  border: none;
+  color: #0a0a0a;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.5rem;
+  background-color: #ebebeb;
+  padding: 10px; }
+
+.card .indexbtn:hover {
+  transition: .3s;
+  background-color: #d2d2d2;
+  color: #0a0a0a; }
+
+.ferrari img {
+  height: 90vh;
+  width: 100%; }
+
+.hero-title-ferrari1 {
+  position: absolute;
+  left: -10vw;
+  top: -75vh;
+  font-size: 6rem;
+  font-weight: 600;
+  color: #d40c0c;
+  z-index: 10; }
+
+.hero-title-ferrari2 {
+  position: absolute;
+  left: -10vw;
+  top: -75vh;
+  font-size: 6rem;
+  font-weight: 600;
+  color: #d40c0c;
+  z-index: 10; }
+
+.hero-title-ferrari3 {
+  position: absolute;
+  left: -10vw;
+  top: -75vh;
+  font-size: 6rem;
+  font-weight: 600;
+  color: #d40c0c;
+  z-index: 10; }
+
+.modelosFerrari {
+  z-index: 3;
+  position: absolute;
+  left: -10vw;
+  top: -5vh;
+  font-size: 2rem;
+  padding: 10px 50px;
+  text-decoration: none;
+  border: solid 2.5px rgba(194, 0, 0, 0.979);
+  font-weight: 600;
+  color: #fafafa; }
+
+.modelosFerrari:hover {
+  transition: .4s;
+  color: #fafafa;
+  background-color: rgba(194, 0, 0, 0.979); }
+
+.ferrari p {
+  color: #a0a0a0;
+  position: absolute;
+  margin-left: -12%;
+  top: -65vh;
+  font-size: 1.8rem;
+  font-weight: 600;
+  z-index: 10; }
+
+.ferrari-link_container {
+  z-index: 6;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  left: 80.5vw;
+  top: -65vh; }
+
+.ferrari__link {
+  font-size: 2rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: #d40c0c;
+  border: solid rgba(194, 0, 0, 0.979);
+  padding: 10px; }
+
+.ferrari__link:hover {
+  transition: .4s;
+  color: #fafafa;
+  background-color: rgba(194, 0, 0, 0.979); }
+
+.modelos-ferrari-title {
+  background-color: #ebebeb;
+  padding: 10px;
+  color: #a0a0a0;
+  font-size: 5.5rem;
+  font-weight: 400;
+  text-align: center; }
+
+.models_container {
+  margin-top: 3%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 30px;
+  padding: 20px;
+  margin-bottom: 20px; }
+
+.models_container article:hover {
+  background: rgba(194, 0, 0, 0.979);
+  transition: all .5s;
+  transform: translate(0, 5px); }
+
+.models_container h4 {
+  border-radius: 5px;
+  text-align: center;
+  width: 100%;
+  padding: 5px 0;
+  background-color: rgba(194, 0, 0, 0.979);
+  color: #fafafa;
+  font-size: 3rem; }
+
+.models_container p {
+  margin: auto;
+  margin-bottom: 10px;
+  padding: 15px;
+  width: 100%;
+  height: 100%;
+  color: #0a0a0a;
+  font-size: 1.8rem;
+  font-weight: 600; }
+
+.models_container img {
+  width: 100%;
+  height: 20em; }
+
+.card-body a {
+  margin: 0;
+  width: 100%;
+  text-align: center;
+  border-radius: 2px;
+  color: #d40c0c;
+  font-size: 2rem;
+  font-weight: 600;
+  text-decoration: none;
+  border: solid rgba(194, 0, 0, 0.979); }
+
+.card-body a:hover {
+  transition: .4s;
+  color: #fafafa;
+  background-color: rgba(194, 0, 0, 0.979); }
+
+.ferrari-contact_container {
+  margin-left: 40vw;
+  margin-bottom: 5%; }
+
+.ferrari-contact_container a {
+  border-radius: 2px;
+  padding: 10px 60px;
+  color: #d40c0c;
+  font-size: 2rem;
+  font-weight: 600;
+  text-decoration: none;
+  border: solid rgba(194, 0, 0, 0.979); }
+
+.ferrari-contact_container a:hover {
+  transition: .4s;
+  color: #fafafa;
+  background-color: rgba(194, 0, 0, 0.979); }
+
+.maserati img {
+  height: 90vh;
+  width: 100%; }
+
+.hero-title-maserati1 {
+  position: absolute;
+  left: -10vw;
+  top: -80vh;
+  font-size: 6rem;
+  font-weight: 600;
+  color: #0a0a0a;
+  z-index: 10; }
+
+.hero-title-maserati2 {
+  position: absolute;
+  left: -10vw;
+  top: -80vh;
+  font-size: 6rem;
+  font-weight: 600;
+  color: #0a0a0a;
+  z-index: 10; }
+
+.hero-title-maserati3 {
+  position: absolute;
+  left: -10vw;
+  top: -80vh;
+  font-size: 6rem;
+  font-weight: 600;
+  color: #0a0a0a;
+  z-index: 10; }
+
+.maserati p {
+  color: #a0a0a0;
+  position: absolute;
+  margin-left: -12%;
+  top: -70vh;
+  font-size: 1.8rem;
+  font-weight: 600;
+  z-index: 10; }
+
+.modelosMaserati {
+  z-index: 3;
+  position: absolute;
+  left: -10vw;
+  top: -5vh;
+  font-size: 2rem;
+  padding: 10px 50px;
+  text-decoration: none;
+  border: solid 2.5px #0a0a0a;
+  font-weight: 600;
+  color: #0a0a0a; }
+
+.modelosMaserati:hover {
+  transition: .4s;
+  color: #fafafa;
+  border: solid 2.5px #0a0a0a;
+  background-color: #0a0a0a; }
+
+.alternativeBtn {
+  border: solid 2.5px white;
+  color: #fafafa; }
+
+.alternativeBtn:hover {
+  border: solid 2.5px #0a0a0a;
+  background-color: #0a0a0a;
+  color: #fafafa; }
+
+.maserati-link_container {
+  z-index: 6;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  left: 80.5vw;
+  top: -65vh; }
+
+.maserati__link {
+  font-size: 2rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: #0a0a0a;
+  border: solid #0a0a0a;
+  padding: 10px; }
+
+.maserati__link:hover {
+  transition: .4s;
+  color: #fafafa;
+  background-color: #0a0a0a; }
+
+.alternativeLink {
+  border: solid 2.5px white;
+  color: #fafafa; }
+
+.alternativeLink:hover {
+  border: solid 2.5px white;
+  background-color: white;
+  color: #0a0a0a; }
+
+.modelos-maserati-title {
+  background-color: #ebebeb;
+  padding: 10px;
+  color: #0f0f0f;
+  font-family: Montserrat;
+  font-size: 5.5rem;
+  font-weight: 400;
+  text-align: center; }
+
+.models_containerMaserati {
+  margin-top: 5%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 30px;
+  padding: 20px;
+  margin-bottom: 20px; }
+
+.models_containerMaserati article:hover {
+  background-color: #0a0a0a;
+  transition: all .5s;
+  transform: translate(0, 5px); }
+
+.models_containerMaserati h3 {
+  text-align: center;
+  width: 100%;
+  background-color: #e1e1e1;
+  color: #a0a0a0;
+  font-size: 3rem; }
+
+.models_containerMaserati h3:hover {
+  background-color: #bebebe;
+  transition: .3s; }
+
+.models_containerMaserati p {
+  padding: 15px;
+  font-size: 1.8rem;
+  font-weight: 600; }
+
+.maserati-contact_container {
+  margin-left: 40vw;
+  margin-bottom: 5%; }
+
+.maserati-contact_container a {
+  margin: auto;
+  text-align: center;
+  border-radius: 2px;
+  padding: 10px 60px;
+  font-size: 2.1rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: #0a0a0a;
+  border: 2px solid #0a0a0a; }
+
+.maserati-contact_container a:hover {
+  background-color: #0a0a0a;
+  color: #fafafa;
+  transition: .4s; }
+
+.about {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding: 20px; }
+
+.about img {
+  width: 80%;
+  height: 100%;
+  margin-left: 10%;
+  filter: brightness(1);
+  opacity: .9; }
+
+.about__title {
+  font-size: 4rem;
+  margin-bottom: 5%; }
+
+.about__text {
+  font-size: 2rem;
+  font-weight: 600; }
+
+.about__container--link {
+  margin-left: 35%;
+  margin-top: 5%; }
+
+.about__link {
+  text-decoration: none;
+  color: #d40c0c;
+  border: 2px solid rgba(194, 0, 0, 0.979);
+  padding: 10px 30px;
+  font-weight: 600;
+  font-size: 2.5rem; }
+
+.about__link:hover {
+  transition: 0.4s;
+  color: #fafafa;
+  background-color: rgba(194, 0, 0, 0.979); }
+
+.login {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  background-color: white;
+  margin: auto;
+  margin-top: 12px;
+  margin-bottom: 10%;
+  border-radius: 5px; }
+
+.login-google-facebook {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%; }
+
+.login__title {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 1em; }
+
+.login-google-facebook a {
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-weight: bolder;
+  color: white; }
+
+.login-google-facebook a:hover {
+  color: white; }
+
+.login-google-facebook img {
+  width: 100%;
+  height: 100%; }
+
+.login-google-facebook div {
+  cursor: pointer;
+  padding: 10px;
+  width: 15rem;
+  height: 5rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0a0a0a; }
+
+.o-login {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.4rem; }
+
+.login__container-form {
+  margin-left: 20%; }
+
+.login__input {
+  color: #f1f1f1;
+  font-size: 1.3rem;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-bottom: 5%;
+  width: 65%;
+  padding: 12px;
+  border: none;
+  outline: none;
+  background-color: black; }
+
+.login__input::placeholder {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #a0a0a0; }
+
+.password {
+  font-size: 1.2rem;
+  margin-left: 15%;
+  font-weight: bold;
+  color: #fafafa; }
+
+.password a {
+  text-decoration: none; }
+
+.login__input--btn {
+  padding: 8px;
+  border-radius: 4px;
+  border: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 3%;
+  width: 50%;
+  margin-left: 10%;
+  background-color: rgba(194, 0, 0, 0.979);
+  color: #fafafa; }
+
+.login__input--btn:hover {
+  background-color: #9c0303; }
+
+.noAccount {
+  font-size: 1.2rem;
+  margin-left: 15%;
+  font-weight: bold;
+  color: #fafafa; }
+
+.noAccount a {
+  text-decoration: none; }
+
+.imagendelogin {
+  border-top: 1px solid #646464;
+  margin-left: 15%;
+  padding: 0;
+  width: 70%;
+  height: 90%; }
+
+.contact {
+  border-bottom: 5px solid #9c0303;
+  border-radius: 4px;
+  width: 75%;
+  margin: auto;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  display: flex; }
+
+.contactMap {
+  width: 23vw;
+  height: 30vh; }
+
+.contact__title {
+  margin-top: 15px;
+  display: block;
+  margin-right: 10%;
+  width: 100%;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold; }
+
+.contact div {
+  margin-left: 6%;
+  width: 100%;
+  margin-top: 5%; }
+
+.contact div h1 {
+  color: #fafafa;
+  margin-left: 6%;
+  font-size: 2.3rem;
+  font-weight: bold; }
+
+.contact div p {
+  margin-left: 6%;
+  font-size: 1.4rem;
+  font-weight: bold; }
+
+.contact div ul {
+  margin-bottom: 5%;
+  font-weight: bold;
+  font-size: 1.4rem; }
+
+.contact div li {
+  font-size: 1.2rem;
+  list-style: none; }
+
+.form {
+  margin-right: 9%;
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column; }
+
+.fieldset {
+  margin-bottom: 5%; }
+
+.form__title {
+  font-size: 1.8rem;
+  font-weight: bold; }
+
+.form__label {
+  font-size: 1.2rem;
+  font-weight: bold;
+  display: flex; }
+
+.form__input {
+  font-weight: bold;
+  color: #fafafa;
+  background-color: rgba(0, 0, 0, 0);
+  width: 110%;
+  font-size: 1.2rem;
+  outline: none;
+  border-radius: 2px;
+  border: 1.6px solid #9c0303;
+  padding: 3px;
+  margin-top: 5%;
+  margin-bottom: 5%; }
+
+.form__input::placeholder {
+  font-size: 1.1rem;
+  font-weight: bold; }
+
+.form__textarea {
+  color: #fafafa;
+  background-color: rgba(0, 0, 0, 0);
+  outline: none;
+  border-radius: 2px;
+  border: 1.6px solid #9c0303;
+  font-size: 1.3rem;
+  font-weight: bold;
+  width: 15vw;
+  height: 15vh;
+  min-height: 15vh;
+  max-height: 15vh; }
+
+.form__textarea::placeholder {
+  color: #fafafa;
+  font-weight: bold; }
+
+.form__input--btn {
+  color: #fafafa;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1.6px solid #9c0303;
+  font-weight: bold;
+  margin-bottom: 5%;
+  padding: 3.5px; }
+
+.form__input--btn:hover {
+  transition: .4s;
+  color: #fafafa;
+  background-color: #9c0303; }
+
+.form__input--checkbox {
+  display: flex;
+  flex-direction: row; }
+
+.NavBs {
+  background-color: white;
+  z-index: 2; }
+
+.nav-link {
+  border: 2px solid white;
+  color: #a0a0a0;
+  font-size: 1.5rem;
+  font-weight: bold; }
+
+.nav-link:hover {
+  transition: .7s;
+  border-top: 2px solid #ebebeb;
+  border-bottom: 2px solid #ebebeb;
+  color: #a0a0a0; }
+
+.NavBs img {
+  margin-left: 10%;
+  margin-right: 20vw;
+  width: 150px;
+  height: 65px; }
+
+.navbsFerrari {
+  background-color: rgba(194, 0, 0, 0.979); }
+
+#textFerrari {
+  color: #fafafa;
+  border: 2px solid rgba(194, 0, 0, 0.979); }
+
+#textFerrari:hover {
+  transition: .7s;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white; }
+
+.navbsMaserati {
+  background-color: #0a0a0a; }
+
+#textMaserati {
+  color: #fafafa;
+  border: 2px solid #0a0a0a; }
+
+#textMaserati:hover {
+  transition: .4s;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white; }
+
+.error404__container {
+  text-align: center;
+  width: 60em;
+  margin: auto; }
+
+.error404__container h1 {
+  text-align: justify;
+  color: #333333;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  font-size: 20rem; }
+
+.wheel {
+  width: 1em;
+  height: .8em; }
+
+.error404__container p {
+  width: 60%;
+  text-align: justify;
+  font-size: 2.5rem; }
+
+.error404__container ul {
+  margin-top: 2%; }
+
+.error404__container li {
+  list-style-type: none;
+  text-align: justify; }
+
+.error404__container li a {
+  color: #0a0a0a;
+  font-size: 1.6rem;
+  font-weight: bold;
+  text-align: justify; }
+
+.error404__container li a:hover {
+  color: #afaaaa; }
+
+.carCrash {
+  position: absolute;
+  left: 80em;
+  top: 5em; }
+
+@media (min-width: 280px) {
+  .hero-title-ferrari1 {
+    font-size: 2.5rem;
+    top: -63vh; }
+  .hero-title-ferrari2 {
+    font-size: 2.5rem;
+    top: -63vh; }
+  .hero-title-ferrari3 {
+    font-size: 2.5rem;
+    top: -63vh; }
+  .ferrari p {
+    font-size: 1.2rem;
+    top: -58vh;
+    left: -8vw; }
+  .ferrari img {
+    width: 100%;
+    height: 75vh; }
+  .ferrari-link_container a {
+    display: none; }
+  .ferrari a {
+    font-size: 1.2rem;
+    left: 10vw;
+    top: -7vh; }
+  .modelos-ferrari-title {
+    font-size: 4.5rem; }
+  .models_container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); }
+  .ferrari-contact_container {
+    margin-left: 5vw;
+    display: flex;
+    flex-direction: row; }
+  .ferrari-contact_container a {
+    text-align: center;
+    font-size: 1.5rem; } }
+
+@media (min-width: 350px) {
+  .ferrari p {
+    left: -5vw; }
+  .ferrari a {
+    left: 15vw; }
+  .ferrari-contact_container {
+    margin-left: 15vw; } }
+
+@media (min-width: 425px) {
+  .ferrari a {
+    left: 18vw; }
+  .ferrari-contact_container {
+    margin-left: 20vw; } }
+
+@media (min-width: 510px) {
+  .ferrari a {
+    left: 21vw; }
+  .ferrari-contact_container {
+    margin-left: 30vw; } }
+
+@media (min-width: 600px) {
+  .ferrari a {
+    left: 25vw; }
+  .models_container {
+    grid-template-columns: repeat(2, 2fr); }
+  .ferrari-contact_container {
+    margin-left: 30vw; } }
+
+@media (min-width: 768px) {
+  .hero-title-ferrari1 {
+    position: absolute;
+    left: -10vw;
+    top: -80vh;
+    font-size: 6rem;
+    font-weight: 600;
+    color: #d40c0c; }
+  .hero-title-ferrari2 {
+    position: absolute;
+    left: -10vw;
+    top: -80vh;
+    font-size: 6rem;
+    font-weight: 600;
+    color: #d40c0c; }
+  .hero-title-ferrari3 {
+    position: absolute;
+    left: -10vw;
+    top: -80vh;
+    font-size: 6rem;
+    font-weight: 600;
+    color: #d40c0c; }
+  .ferrari a {
+    font-size: 2rem;
+    left: 55vw;
+    top: -7vh; }
+  .ferrari p {
+    margin-left: -5%;
+    top: -70vh;
+    font-size: 1.8rem; }
+  .ferrari-link_container a {
+    display: flex; }
+  .ferrari-link_container {
+    left: 78.5vw; }
+  .ferrari img {
+    width: 100%;
+    height: 88vh; }
+  .ferrari-contact_container {
+    margin-left: 35vw; } }
+
+@media (min-width: 930px) {
+  .ferrari-contact_container {
+    margin-left: 40vw; } }
+
+@media (min-width: 1190px) {
+  .ferrari img {
+    height: 87vh; }
+  .models_container {
+    grid-template-columns: repeat(3, 3fr); }
+  .ferrari-contact_container a {
+    font-size: 2rem; } }
+
+@media (min-width: 1440px) {
+  .ferrari-link_container {
+    left: 80.5vw; }
+  .models_container {
+    grid-template-columns: repeat(4, 1fr); } }
+
+@media (min-width: 320px) {
+  .contact {
+    margin: 0;
+    padding: 5px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5%; }
+  .contactMap {
+    width: 80vw;
+    height: 25vh; }
+  .contact__title {
+    border-bottom: 1px solid #ebebeb; }
+  .form__input {
+    padding: 10px;
+    width: 80%; }
+  .form__textarea {
+    width: 80vw; }
+  .form__input--btn {
+    width: 60%;
+    margin: auto; } }
+
+@media (min-width: 720px) {
+  .form__label {
+    font-size: 1.5rem; }
+  .form {
+    margin-left: 8%; }
+  .contact div h1 {
+    margin-left: 3%; }
+  .contact div p {
+    margin-left: 3%; }
+  .form__input {
+    padding: 15px; } }
+
+@media (min-width: 1245px) {
+  .contact {
+    width: 75%;
+    margin: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    display: flex;
+    flex-direction: row; }
+  .contact__title {
+    font-size: 2.467rem;
+    margin-left: 5%;
+    width: 100%;
+    border-bottom: none; }
+  .contactMap {
+    width: 20vw;
+    height: 30vh; }
+  .contact ul {
+    padding-bottom: 5%; }
+  .form {
+    margin-right: 9%;
+    margin-left: 0; }
+  .form__textarea {
+    width: 15vw;
+    height: 15vh;
+    min-height: 15vh;
+    max-height: 15vh; }
+  .form__input {
+    width: 100%;
+    padding: 5px; }
+  .form__input--btn {
+    font-size: 1.2rem;
+    width: 80%;
+    margin-bottom: 5%; } }
+
+@media (min-width: 280px) {
+  .hero-title-maserati1 {
+    font-size: 2.5rem;
+    top: -63vh; }
+  .hero-title-maserati2 {
+    font-size: 2.5rem;
+    top: -63vh; }
+  .hero-title-maserati3 {
+    font-size: 2.5rem;
+    top: -63vh; }
+  .maserati p {
+    font-size: 1.2rem;
+    top: -58vh;
+    left: -5vw; }
+  .maserati a {
+    font-size: 1.2rem;
+    left: 10vw;
+    top: -7vh; }
+  .maserati img {
+    width: 100%;
+    height: 75vh; }
+  .maserati-link_container a {
+    display: none; }
+  .modelos-maserati-title {
+    font-size: 4.5rem; }
+  .models_containerMaserati {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); }
+  .maserati-contact_container {
+    margin-left: 5vw;
+    display: flex;
+    flex-direction: row; }
+  .maserati-contact_container a {
+    text-align: center;
+    font-size: 1.5rem; } }
+
+@media (min-width: 350px) {
+  .maserati p {
+    left: -5vw; }
+  .maserati a {
+    left: 15vw; } }
+
+@media (min-width: 425px) {
+  .maserati a {
+    left: 18vw; } }
+
+@media (min-width: 510px) {
+  .maserati a {
+    left: 21vw; } }
+
+@media (min-width: 600px) {
+  .maserati a {
+    left: 25vw; } }
+
+@media (min-width: 650px) {
+  .models_containerMaserati {
+    grid-template-columns: repeat(2, 2fr); } }
+
+@media (min-width: 768px) {
+  .hero-title-maserati1 {
+    left: -10vw;
+    top: -75vh;
+    font-size: 5rem; }
+  .hero-title-maserati2 {
+    left: -10vw;
+    top: -75vh;
+    font-size: 5rem; }
+  .hero-title-maserati3 {
+    left: -10vw;
+    top: -75vh;
+    font-size: 5rem; }
+  .maserati p {
+    margin-left: -5%;
+    top: -65vh;
+    font-size: 2rem; }
+  .maserati-link_container a {
+    display: flex;
+    font-size: 2.3rem; }
+  .maserati a {
+    font-size: 2rem;
+    left: 60vw; }
+  .maserati-link_container {
+    left: 78.5vw; }
+  .maserati img {
+    width: 100%;
+    height: 90vh; } }
+
+@media (min-width: 1190px) {
+  .maserati img {
+    height: 90vh; }
+  .models_containerMaserati {
+    grid-template-columns: repeat(3, 3fr); }
+  .maserati-contact_container a {
+    font-size: 2rem; } }
+
+@media (min-width: 1440px) {
+  .maserati-link_container {
+    left: 80.5vw; }
+  .models_containerMaserati {
+    grid-template-columns: repeat(4, 1fr); } }
+
+@media (min-width: 320px) {
+  .login {
+    width: 30em;
+    height: 50em; }
+  .login-google-facebook div {
+    margin-right: 10px; }
+  .password {
+    margin-left: 0; }
+  .noAccount {
+    margin-left: 0; } }
+
+@media (min-width: 375px) {
+  .login {
+    width: 35em;
+    height: 55em; } }
+
+@media (min-width: 500px) {
+  .login {
+    width: 40em; } }
+
+@media (min-width: 710px) {
+  .login {
+    width: 45em;
+    height: 60em; }
+  .password {
+    margin-left: 10%; }
+  .noAccount {
+    margin-left: 10%; } }
+
+@media (min-width: 1024px) {
+  .login {
+    width: 50em;
+    height: 60em; } }
+
+@media (min-width: 280px) {
+  .hero-title1 {
+    position: absolute;
+    font-size: 3rem;
+    top: -15vh; }
+  .hero-title2 {
+    position: absolute;
+    font-size: 3rem;
+    top: -15vh; }
+  .hero-title3 {
+    position: absolute;
+    font-size: 3rem;
+    top: -15vh; }
+  .header_container p {
+    font-size: 1.5rem;
+    top: -10vh;
+    left: -12vw; }
+  .header_container a {
+    font-size: 1.3rem;
+    top: -6vh;
+    left: 17vw; }
+  .header_container img {
+    width: 50rem;
+    height: 55rem; }
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); }
+  .marcas__title {
+    font-size: 4.5rem;
+    margin-left: 25vw; }
+  .marcas__text {
+    display: none; }
+  .card-body a {
+    font-size: 1.2rem;
+    margin-left: 20vw; }
+  .card-text {
+    width: 100%; }
+  .cards img {
+    margin: auto;
+    width: 50%; } }
+
+@media (min-width: 700px) {
+  .hero-title1 {
+    left: -15vw;
+    top: -10vh; }
+  .hero-title2 {
+    left: -15vw;
+    top: -10vh; }
+  .hero-title3 {
+    left: -15vw;
+    top: -10vh; }
+  .header_container p {
+    left: -14vw;
+    top: -2vh; }
+  .header_container a {
+    left: 50vw; }
+  .marcas__title {
+    font-size: 3rem;
+    width: 100%;
+    margin: 0; }
+  .marcas__text {
+    margin-left: 0;
+    display: flex;
+    font-size: 1rem; }
+  .cards {
+    margin-left: 0;
+    grid-gap: 1em;
+    display: grid;
+    grid-template-columns: repeat(2, 50%); }
+  .cards img {
+    margin: auto;
+    width: 70%; }
+  .card a {
+    margin-left: 6.5em; } }
+
+@media (min-width: 750px) {
+  .hero-title1 {
+    left: -15vw;
+    top: -10vh; }
+  .hero-title2 {
+    left: -15vw;
+    top: -10vh; }
+  .hero-title3 {
+    left: -15vw;
+    top: -10vh; }
+  .header_container p {
+    left: -14vw;
+    top: -2vh; }
+  .header_container a {
+    left: 50vw; }
+  .card a {
+    margin-left: 10em; }
+  .cards img {
+    margin: auto;
+    width: 70%; } }
+
+@media (min-width: 900px) {
+  .marcas__title {
+    font-size: 4rem; }
+  .marcas__text {
+    font-size: 1.3rem; }
+  .card a {
+    margin-left: 12em; }
+  .cards img {
+    margin: auto;
+    width: 75%; } }
+
+@media (min-width: 1024px) {
+  .cards img {
+    margin: auto;
+    width: 85%; }
+  .nav-link {
+    font-size: 1.8rem; }
+  .header_container img {
+    height: 88vh; }
+  .hero-title1 {
+    left: -12vw;
+    top: -6vh; }
+  .hero-title2 {
+    left: -12vw;
+    top: -6vh; }
+  .hero-title3 {
+    left: -12vw;
+    top: -6vh; }
+  .header_container p {
+    left: -5vw;
+    top: -4vh; }
+  .header_container a {
+    top: -6vh; }
+  .marcas__title {
+    font-size: 4.5rem; }
+  .marcas__text {
+    font-size: 1.3,5rem; }
+  .card a {
+    margin-left: 25%; } }
+
+@media (min-width: 1440px) {
+  .header_container img {
+    height: 89vh; }
+  .hero-title1 {
+    font-size: 5rem; }
+  .hero-title2 {
+    font-size: 5rem; }
+  .hero-title3 {
+    font-size: 5rem; }
+  .header_container p {
+    font-size: 2.2rem; }
+  .header_container a {
+    z-index: 5;
+    top: -8vh;
+    margin-left: 20%;
+    font-size: 2rem;
+    width: 20%; }
+  .marcas__title {
+    font-size: 4.5rem; }
+  .marcas__text {
+    font-size: 1.8rem; }
+  .cards {
+    width: 85%;
+    margin-left: 10%;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 45%);
+    grid-gap: 5em; }
+  .cards p {
+    width: 100%; }
+  .cards img {
+    margin: auto;
+    width: 75%;
+    height: 60%; }
+  .card a {
+    margin-left: 25%; } }
+
+@media (min-width: 280px) {
+  .about {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); }
+  .about img {
+    margin: auto;
+    width: 100%;
+    height: 120%; }
+  .about__title {
+    margin-top: 15%;
+    text-align: center;
+    font-size: 3rem; }
+  .about__text {
+    text-align: justify;
+    text-align: center;
+    font-size: 1.6rem; }
+  .about__container--link {
+    margin-left: 20%; }
+  .about__link {
+    font-size: 1.8rem; } }
+
+@media (min-width: 375px) {
+  .about__container--link {
+    margin-left: 25%; } }
+
+@media (min-width: 425px) {
+  .about__container--link {
+    margin-left: 30%; } }
+
+@media (min-width: 490px) {
+  .about__container--link {
+    margin-left: 35%; } }
+
+@media (min-width: 610px) {
+  .about__container--link {
+    margin-left: 40%; } }
+
+@media (min-width: 900px) {
+  .about {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); }
+  .about img {
+    width: 85%;
+    height: 100%; }
+  .about__title {
+    margin-left: 2%;
+    margin-top: 0;
+    font-size: 4rem;
+    text-align: justify; }
+  .about__text {
+    margin-left: 2%;
+    font-size: 2rem;
+    text-align: justify; }
+  .about__link {
+    font-size: 2rem; } }
+
+@media (min-width: 320px) {
+  .error404__container {
+    width: 100%; }
+  .error404__container h1 {
+    font-size: 12rem;
+    text-align: center; }
+  .error404__container p {
+    width: 100%;
+    text-align: justify;
+    font-size: 1.6rem; }
+  .error404__container li {
+    margin-left: 10px; }
+  .carCrash {
+    width: 20em;
+    height: 20em;
+    left: 12em;
+    top: 20em; } }
+
+@media (min-width: 410px) {
+  .error404__container p {
+    text-align: justify; }
+  .carCrash {
+    width: 23em;
+    height: 23em;
+    left: 15em;
+    top: 15em; } }
+
+@media (min-width: 615px) {
+  .error404__container {
+    width: 50%;
+    height: 100%;
+    margin-left: 20%; }
+  .error404__container li {
+    margin-left: 0; }
+  .error404__container h1 {
+    text-align: justify; }
+  .carCrash {
+    width: 30em;
+    height: 30em;
+    top: 10em;
+    left: 30em; } }
+
+@media (min-width: 910px) {
+  .error404__container {
+    width: 45%;
+    height: 100%;
+    margin-left: 20%; }
+  .error404__container li {
+    margin-left: 0; }
+  .error404__container h1 {
+    text-align: justify; }
+  .carCrash {
+    width: 35em;
+    height: 35em;
+    top: 10em;
+    left: 35em; } }
+
+@media (min-width: 1245px) {
+  .error404__container {
+    text-align: center;
+    width: 60em;
+    margin: auto; }
+  .error404__container h1 {
+    text-align: justify;
+    color: #333333;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 20rem; }
+  .wheel {
+    width: 1em;
+    height: .8em; }
+  .error404__container p {
+    width: 60%;
+    text-align: justify;
+    font-size: 2.5rem; }
+  .error404__container ul {
+    margin-top: 2%; }
+  .error404__container li {
+    list-style-type: none;
+    text-align: justify; }
+  .error404__container li a {
+    color: #0a0a0a;
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-align: justify; }
+  .error404__container li a:hover {
+    color: #afaaaa; }
+  .carCrash {
+    position: absolute;
+    width: 50em;
+    height: 50em;
+    left: 80em;
+    top: 10em; } }

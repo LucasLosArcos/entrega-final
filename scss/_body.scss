@@ -1,0 +1,780 @@
+
+// Index Header
+.header_container img{
+    height: 90vh;
+}
+
+@for $i from 1 through  3{
+    .hero-title#{$i}{
+    position: absolute;
+	left: -10vw;
+	top: -8vh;
+	font-size: $text-b;
+	font-weight: 600;
+	z-index: 10;
+    }
+}
+
+.header_container p{
+    position: absolute;
+    margin-left: $mg-left-small;
+	top: -5vh;
+	font-size: 2rem;
+	font-weight: 600;
+	z-index: 10;
+}
+
+
+.header_container a{
+	position: absolute;
+	left: 55vw;
+	top: -8vh;
+	font-size: $text-m;
+	font-weight: 600;
+	text-decoration: none;
+	color: $text-white;
+	border: solid $bg-white;
+	padding: 10px;
+}
+
+.header_container a:hover{
+    color: $text-lightgray;
+    background-color: $bg-white;
+    transition: .4s;
+}
+
+.carousel-inner .carousel-item{
+	transition: .6s;
+}
+
+// Index Main
+
+.marcas{
+	display: $d-grid;
+	grid-template-columns:repeat(2, 1fr);
+	z-index: 2;
+	background-color: $bg-lightgray;
+	padding: 2%;
+}
+
+.marcas__title{
+	color: $text-lightgray;
+}
+
+.marcas__text{
+	width: $w-medium;
+	font-size: $text-s;
+	font-weight: 600;
+	color: $text-lightgray;
+	margin-top: 2%;
+	margin-right: 70vw;
+}
+
+
+.cards{
+	margin-left: $mg-left-small;
+	padding: 2rem;
+	display: $d-grid;
+	grid-template-columns: repeat(2, 40%);
+	grid-gap: 12em;
+}
+
+
+.cards h3{
+	text-transform: uppercase;
+	text-align: center;
+	width: $w-medium;
+	background-color: $bg-lightgray;
+	color: $text-black;
+	font-weight: 600;
+	font-size: $text-m;
+}
+
+
+.cards p{
+	color: $text-black;
+	font-size: $text-s;
+	font-weight: 600;
+	margin: 10px;
+	padding: 5px;
+}
+
+.card .indexbtn{
+	width: 50%;
+	border: none;
+	color: $text-black;
+	text-decoration: none;
+	font-weight: 600;
+	font-size: $text-s;
+	background-color:$bg-lightgray;
+	padding: 10px;
+}
+
+.card .indexbtn:hover{
+	transition: .3s;
+	background-color:rgb(210, 210, 210);
+	color: $text-black;
+}
+// Ferrari Header
+.ferrari img{
+	height: 90vh;
+	width: 100%;
+}
+
+@for $i from 1 through  3{
+    .hero-title-ferrari#{$i}{
+    position: absolute;
+	left: -10vw;
+	top: -75vh;
+	font-size: $text-b+1rem;
+	font-weight: 600;
+	color: $text-red;
+	z-index: 10;
+    }
+}
+
+.modelosFerrari{
+	z-index: 3;
+	position: absolute;
+	left: -10vw;
+	top: -5vh;
+	font-size: $text-m;
+	padding: 10px 50px;
+	text-decoration: none;
+	border: solid 2.5px $bg-red;
+	font-weight: 600;
+	color: $text-white;
+}
+
+.modelosFerrari:hover{
+	transition: .4s;
+	color: $text-white;
+	background-color: $bg-red;
+}
+
+.ferrari p{
+	color: $text-lightgray;
+	position: absolute;
+    margin-left: -12%;
+	top: -65vh;
+	font-size: 1.8rem;
+	font-weight: 600;
+	z-index: 10;
+}
+
+.ferrari-link_container {
+	z-index: 6;
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	left: 80.5vw;
+	top: -65vh;
+}
+
+.ferrari__link{
+	font-size: $text-m;
+	font-weight: 600;
+	text-decoration: none;
+	color: $text-red;
+	border: solid $bg-red;
+	padding: 10px;
+}
+
+.ferrari__link:hover{
+	transition: .4s;
+	color: $text-white;
+	background-color: $bg-red;
+}
+
+
+
+// Ferrari Main
+.modelos-ferrari-title{
+	background-color: $bg-lightgray;
+	padding: 10px;
+	color: $text-lightgray;
+	font-size: $text-b+0.5rem;
+	font-weight: 400;
+	text-align: center;
+}
+
+.models_container{
+	margin-top: $mg-top-small -(2%);
+	display: $d-grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 30px;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+.models_container article:hover{
+	background: $bg-red;
+	transition: all .5s;
+	transform: translate(0,5px);
+}
+
+
+.models_container h4{
+	border-radius: 5px;
+	text-align: center;
+	width: $w-medium;
+	padding: 5px 0;
+	background-color: $bg-red;
+	color: $text-white;
+	font-size: $text-m+1rem;
+}
+
+
+.models_container p{
+	margin: auto;
+	margin-bottom: 10px;
+	padding: 15px;
+	width: $w-medium;
+	height: $h-medium;
+	color: $text-black;
+	font-size:1.8rem;
+	font-weight: 600;
+}
+
+
+.models_container img{
+	width: $w-medium;
+	height: 20em;
+}
+
+.card-body a{
+	margin: 0;
+	width: 100%;
+	text-align: center;
+	border-radius: 2px;
+	color: $text-red;
+	font-size: $text-m;
+	font-weight: 600;
+	text-decoration: none;
+	border: solid $bg-red;
+}
+
+.card-body a:hover{
+	transition: .4s;
+	color: $text-white;
+	background-color: $bg-red;
+}
+
+
+.ferrari-contact_container{
+	margin-left: 40vw;
+	margin-bottom: $mg-bottom-small;
+}
+
+
+.ferrari-contact_container a{
+	border-radius: 2px;
+	padding: 10px 60px;
+	color: $text-red;
+	font-size: $text-m;
+	font-weight: 600;
+	text-decoration: none;
+	border: solid $bg-red;
+}
+
+.ferrari-contact_container a:hover{
+	transition: .4s;
+	color: $text-white;
+	background-color: $bg-red;
+}
+
+// Maserati Header
+.maserati img{
+	height: 90vh;
+	width: 100%;
+}
+
+@for $i from 1 through  3{
+    .hero-title-maserati#{$i}{
+    position: absolute;
+	left: -10vw;
+	top: -80vh;
+	font-size: $text-b+1rem;
+	font-weight: 600;
+	color: $text-black;
+	z-index: 10;
+    }
+}
+
+
+.maserati p{
+	color: $text-lightgray;
+	position: absolute;
+    margin-left: -12%;
+	top: -70vh;
+	font-size: 1.8rem;
+	font-weight: 600;
+	z-index: 10;
+}
+
+.modelosMaserati{
+	z-index: 3;
+	position: absolute;
+	left: -10vw;
+	top: -5vh;
+	font-size: $text-m;
+	padding: 10px 50px;
+	text-decoration: none;
+	border: solid 2.5px $bg-black;
+	font-weight: 600;
+	color: $text-black;
+}
+
+.modelosMaserati:hover{
+	transition: .4s;
+	color: $text-white;
+	border: solid 2.5px $bg-black;
+	background-color: $bg-black;
+}
+
+.alternativeBtn{
+	border: solid 2.5px $bg-white;
+	color: $text-white;
+}
+.alternativeBtn:hover{
+	border: solid 2.5px $bg-black;
+	background-color: $bg-black;
+	color: $text-white;
+}
+
+
+.maserati-link_container {
+	z-index: 6;
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	left: 80.5vw;
+	top: -65vh;
+}
+
+.maserati__link{
+	font-size: $text-m;
+	font-weight: 600;
+	text-decoration: none;
+	color: $text-black;
+	border: solid $bg-black;
+	padding: 10px;
+}
+
+.maserati__link:hover{
+	transition: .4s;
+	color: $text-white;
+	background-color: $bg-black;
+}
+
+.alternativeLink{
+	border: solid 2.5px $bg-white;
+	color: $text-white;
+}
+
+.alternativeLink:hover{
+	border: solid 2.5px $bg-white;
+	background-color: $bg-white;
+	color: $text-black;
+}
+
+// Maserati Main
+
+.modelos-maserati-title{
+	background-color: rgba(235, 235, 235, 1.0);
+	padding: 10px;
+	color: rgba(15, 15, 15, 1.0);
+	font-family: Montserrat;
+	font-size: 5.5rem;
+	font-weight: 400;
+	text-align: center;
+}
+
+.models_containerMaserati{
+	margin-top: $mg-top-small;
+	display: $d-grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 30px;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+
+
+.models_containerMaserati article:hover{
+	background-color: $bg-black;
+	transition: all .5s;
+	transform: translate(0,5px);
+}
+
+
+.models_containerMaserati h3{
+	text-align: center;
+	width: $w-medium;
+	background-color: rgba(225, 225, 225,1.0);
+	color: $text-lightgray;
+	font-size: $text-m+1rem;
+}
+
+
+.models_containerMaserati h3:hover{
+	background-color: rgb(190, 190, 190);
+	transition:.3s ;
+}
+
+
+.models_containerMaserati p{
+	padding: 15px;
+	font-size: 1.8rem;
+	font-weight: 600;
+}
+
+
+.maserati-contact_container{
+	margin-left:40vw;
+	margin-bottom: $mg-bottom-small;
+}
+
+.maserati-contact_container a{
+	margin: auto;
+	text-align: center;
+	border-radius: 2px;
+	padding: 10px 60px;
+	font-size: 2.1rem;
+	font-weight: 600;
+	text-decoration: none;
+	color: $text-black;
+	border: 2px solid $bg-black;
+}
+
+.maserati-contact_container a:hover{
+	background-color: $bg-black;
+	color: $text-white;
+	transition: .4s;
+}
+
+
+// About Main
+
+.about{
+	width: $w-medium;
+	display: $d-grid;
+	grid-template-columns: repeat(2, 1fr);
+	margin: auto;
+	margin-top: $mg-top-small;
+	margin-bottom: $mg-bottom-small;
+	padding: 20px;
+}
+
+.about img{
+	width: $w-small+30%;
+	height: $h-medium;
+	margin-left: $mg-left-medium;
+	filter: brightness(1);
+	opacity: .9;
+}
+
+.about__title {
+	font-size: $text-m + 2rem;
+	margin-bottom: $mg-bottom-small;
+}
+
+.about__text {
+	font-size: $text-m;
+	font-weight: 600;
+}
+
+.about__container--link{
+	margin-left: $mg-left-big +5%;
+	margin-top: $mg-top-small;
+}
+.about__link{
+	text-decoration: none;
+	color: $text-red;
+	border: 2px solid $bg-red;
+	padding: 10px 30px;
+	font-weight: 600;
+	font-size: $text-m+0.5rem;
+}
+
+.about__link:hover{
+	transition: 0.4s;
+	color: $text-white;
+	background-color: $bg-red;
+}
+
+// Iniciar Sesión
+
+.login{
+	display: flex;
+	flex-direction: column;
+	padding: 15px;
+	background-color: $bg-white;
+
+	margin: auto;
+	margin-top: 12px;
+	margin-bottom: 10%;
+	border-radius: 5px;
+}
+
+.login-google-facebook{
+	display: flex;
+	justify-content: space-evenly;
+	width: 100%;
+}
+
+.login__title{
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 1em;
+}
+
+.login-google-facebook a{
+
+	text-decoration: none;
+	font-size: 1.8rem;
+	font-weight: bolder;
+	color: white;
+}
+
+.login-google-facebook a:hover{
+	color: white;
+}
+
+
+.login-google-facebook img{
+	width:100%;
+	height: 100%;
+}
+
+.login-google-facebook div{
+	cursor: pointer;
+	padding: 10px;
+	width: 15rem;
+	height: 5rem;	
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	background-color: $bg-black;
+}
+
+.o-login{
+	margin-top: 2em;
+	margin-bottom: 2em;
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.4rem;
+}
+
+.login__container-form{
+	margin-left: 20%;
+}
+
+.login__input{
+	color: rgb(241, 241, 241);
+	font-size: 1.3rem;
+	font-weight: bold;
+	border-radius: 5px;
+	margin-bottom: 5%;
+	width: 65%;
+	padding: 12px;
+	border: none;
+	outline: none;
+	background-color: rgb(0, 0, 0);
+}
+
+.login__input::placeholder{
+	font-size: 1.3rem;
+	font-weight: bold;
+	color: $text-lightgray;
+}
+
+.password{
+	font-size: 1.2rem;
+	margin-left: 15%;
+	font-weight: bold;
+	color: $text-white
+}
+
+.password a{
+	text-decoration: none;
+}
+
+.login__input--btn{
+	padding: 8px;
+	border-radius: 4px;
+	border: none;
+	font-size: 1.5rem;
+	font-weight: bold;
+	margin-top: 3%;
+	width: 50%;
+	margin-left: 10%;
+	background-color: $bg-red;
+	color: $text-white;
+}
+
+.login__input--btn:hover{
+	background-color: rgb(156, 3, 3);
+}
+
+.noAccount{
+	font-size: 1.2rem;
+	margin-left: 15%;
+	font-weight: bold;
+	color: $text-white
+}
+
+.noAccount a{
+	text-decoration: none;
+}
+
+.imagendelogin{	
+	border-top: 1px solid rgb(100, 100, 100);
+	margin-left: 15%;
+	padding: 0;
+	width: 70%;
+	height: 90%;
+}
+
+
+// Contactanos
+
+.contact{
+	border-bottom: 5px solid  rgb(156, 3, 3);
+	border-radius: 4px;
+	width: 75%;
+	margin: auto;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	display: flex;
+}
+
+.contactMap{
+	width: 23vw;
+	height:30vh ;
+}
+
+
+.contact__title{
+	margin-top: 15px;
+	display: block;
+	margin-right: 10%;
+	width: 100%;
+	text-align: center;
+	font-size: 2.5rem;
+	font-weight: bold;
+}
+
+.contact div{
+	margin-left: 6%;
+	width: 100%;
+	margin-top: 5%;
+}
+
+.contact div h1{
+	color: $text-white;
+	margin-left: 6%;
+	font-size: 2.3rem;
+	font-weight: bold;
+}
+
+.contact div p{
+	margin-left: 6%;
+	font-size: 1.4rem;
+	font-weight: bold;
+}
+
+.contact div ul{
+	margin-bottom: 5%;
+	font-weight: bold;
+	font-size: 1.4rem;
+}
+
+.contact div li{
+	font-size: 1.2rem;
+	list-style: none;
+}
+
+.form{
+	margin-right: 9%;
+	margin-top: 5%;
+	display: flex;
+	flex-direction: column;
+}
+
+.fieldset{
+	margin-bottom: 5%;
+}
+
+.form__title{
+	font-size: 1.8rem;
+	font-weight: bold;
+}
+
+.form__label{
+	font-size: 1.2rem;
+	font-weight: bold;
+	display: flex;
+}
+
+.form__input{
+	font-weight: bold;
+	color: $text-white;
+	background-color: rgba(0,0,0,0);
+	width: 110%;
+	font-size: 1.2rem;
+	outline: none;
+	border-radius: 2px;
+	border: 1.6px solid rgb(156, 3, 3);
+	padding: 3px;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.form__input::placeholder{
+	font-size: 1.1rem;
+	font-weight: bold;
+}
+
+.form__textarea{
+	color: $text-white;
+	background-color: rgba(0,0,0,0);
+	outline: none;
+	border-radius: 2px;
+	border: 1.6px solid rgb(156, 3, 3);
+	font-size: 1.3rem;
+	font-weight: bold;
+	width: 15vw;
+	height: 15vh;
+	min-height: 15vh;
+	max-height: 15vh;
+}
+
+.form__textarea::placeholder{
+	color: $text-white;
+	font-weight: bold;
+}
+
+.form__input--btn{
+	color: $text-white;
+	background-color: rgba(0,0,0,0);
+	border: 1.6px solid rgb(156, 3, 3);
+	font-weight: bold;
+	margin-bottom: 5%;
+	padding: 3.5px;
+}
+
+.form__input--btn:hover{
+	transition: .4s;
+	color: $text-white;
+	background-color: rgb(156, 3, 3);
+}
+
+.form__input--checkbox{
+	display: flex;
+	flex-direction: row;
+}

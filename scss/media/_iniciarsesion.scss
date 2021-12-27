@@ -1,0 +1,53 @@
+@media(min-width:320px){
+    .login{
+    width: 30em;
+	height: 50em;
+    }
+
+    .login-google-facebook div{
+        margin-right: 10px;
+    }
+
+    .password{
+        margin-left: 0;
+    }
+
+    .noAccount{
+        margin-left: 0;
+    }
+}
+
+@media(min-width:375px){
+    .login{
+    width: 35em;
+	height: 55em;
+    }
+}
+
+@media(min-width:500px){
+    .login{
+        width: 40em;
+    }
+}
+
+@media(min-width:710px){
+    .login{
+        width: 45em;
+        height: 60em;
+    }
+
+    .password{
+        margin-left: 10%;
+    }
+
+    .noAccount{
+        margin-left: 10%;
+    }
+}
+
+@media(min-width:1024px){
+    .login{
+        width: 50em;
+        height: 60em;
+    }
+}

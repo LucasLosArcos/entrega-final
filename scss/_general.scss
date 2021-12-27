@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Montserrat ;
+
+}
+
+html{
+	font-size: 62.5%;
+}
+
+
+body{
+	display: flex;
+	flex-direction: column;
+}
+
+.bg-red-gradient{
+	background: rgb(194,14,14);
+	background: linear-gradient(180deg, rgba(194,14,14,1) 0%, rgba(255,255,255,1) 100%);
+}
+
+.text-bold{
+	font-weight: bold;
+}
+
+.text-small{
+	font-size: 1.5rem;
+}
+
+// Top/Bottom
+$top-10:10%;
+$top-20:20%;
+$top-30:30%;
+$top-40:40%;
+$top-50:40%;
+
+$bottom-10:10%;
+$bottom-20:20%;
+$bottom-30:30%;
+$bottom-40:40%;
+$bottom-50:50%;
+
+// Margin
+$mg-top-small:5%;
+$mg-top-medium:10%;
+$mg-top-big:30%;
+
+$mg-right-small:5%;
+$mg-right-medium:10%;
+$mg-right-big:30%;
+
+$mg-bottom-small:5%;
+$mg-bottom-medium:10%;
+$mg-bottom-big:30%;
+
+$mg-left-small:5%;
+$mg-left-medium:10%;
+$mg-left-big:30%;
+
+// Width/Height
+$w-small:50%;
+$w-medium:100%;
+$w-big:150%;
+
+$h-small:50%;
+$h-medium:100%;
+$h-big:150%;
+
+
+// Display
+$d-flex:flex;
+$d-grid:grid;
+
+// Background Colours
+$bg-white: rgb(255, 255, 255);
+$bg-lightgray:rgb(235,235,235);
+$bg-red: rgba(194, 0, 0, 0.979);
+$bg-black:rgb(10,10,10);
+
